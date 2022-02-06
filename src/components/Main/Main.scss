@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  &_table {
+    width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    border: 5px solid rgb(61, 95, 61);
+    border-radius: 20px;
+    box-shadow: chocolate;
+  }
+  &_content {
+    margin: 40px;
+    text-align: center;
+  }
+  &_add {
+    margin-left: 30px;
+  }
+}
+.equals {
+  font-weight: bold;
+  font-size: 2rem;
+}
